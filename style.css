@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin:0 auto;
+    padding:50px;
+}
+.main-menu {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    
+}
+.main-menu-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block; 
+    border-bottom: 2px solid rgb(110, 106, 106);
+    margin:-10px;
+}
+.main-menu-item a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: smaller;
+    cursor:pointer;
+}
+.main-menu-item:hover {
+    background-color: rgb(49, 45, 45);
+}
+.wrapper {
+    /*width: 600px;*/
+    background-color:rgb(49, 45, 45);
+    padding:2rem;
+    margin-top:3rem;
+    margin-left:20%;
+    margin-right:20%;
+}
+h1 {
+    font-size: 28Spx;
+    font-weight:400;
+    margin-bottom:-10px;
+}
+h2 {
+    color:rgb(189, 186, 186);
+    font-size: smaller;
+    font-weight: 100;
+}
+h3 {
+    font-weight: 300;
+}
+p {
+    font-size: smaller;
+    line-height: 1.6;
+    color: lavender;
+}
+.image-container {
+    text-align:center;
+    color: lavender;
+    font-size: smaller;
+    padding:1% 10%;
+}
+/*
+.picture#1,
+.picture#2,
+.picture#3 {
+    margin:15px;
+    border:2px solid white;
+}*/
+footer {
+    background-color: rgb(20, 19, 19);
+    margin:0 -50px -50px -50px;
+    text-align: center;
+    height:5rem;
+    padding-top:1rem;
+    font-size: 12px;
+    color:white;
+}
